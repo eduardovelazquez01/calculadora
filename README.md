@@ -35,3 +35,6 @@ R: En mi caso, le muestra un mensaje de error, y reanuda nuevamente la selecció
 Evidencia de funcionamiento del programa:
 
 ![image](https://github.com/eduardovelazquez01/calculadora/assets/157351114/2d95b41a-09e3-4a5a-8791-ea26660ae978)
+
+
+¡¡¡¡El repositorio será eliminado una vez que sea calificado!!!
