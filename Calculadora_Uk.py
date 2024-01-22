@@ -50,10 +50,13 @@ while True:
     if opcion not in ('1','2','3','4','5','6'):
         print(f"¡Hola {nombre} :) esa opción NO es valida!, Por favor elige un numero del 1 al 7")
         continue
+    try:
     #Entrada de datos
-    numero_1 = float(input("Ingresa el primer numero: "))
-    numero_2 = float(input("Ingresa el segundo numero: "))
-
+        numero_1 = float(input("Ingresa el primer numero: "))
+        numero_2 = float(input("Ingresa el segundo numero: "))
+    except ValueError:
+        print(f"Error :(, debes ingresar números válidos. Intentálo nuevamente {nombre}.")
+        continue
     #Operaciones
     if opcion == '1':
         print("El resultado de ésta Suma es: ", suma(numero_1, numero_2))
